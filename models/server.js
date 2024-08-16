@@ -1,7 +1,7 @@
 const express = require('express')
 const dbConnection = require('../database/config')
 require('dotenv').config()
-const {getProduct, postProduct,putProduct, deleteProduct} = require ('../controllers/ProductController')
+const {getProduct, postProduct,putProduct, deleteProduct} = require ('../controllers/Controller')
 
 class Server{
     //el constructor instancia una clase
